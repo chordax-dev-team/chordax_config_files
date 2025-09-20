@@ -1,0 +1,5 @@
+########################### SERVER ############################################
+server.port: 8888
+
+################# PREVENTS ERRORS WHEN EUREKA IS NOT UP YET ##########################
+spring.cloud.config.fail-fast: false

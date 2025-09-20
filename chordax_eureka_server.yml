@@ -1,0 +1,8 @@
+########################### PORT ############################################
+server.port: 8765
+
+################# EUREKA - SERVER - SERVICE DISCOVERY ##########################
+eureka.client:
+    fetch-registry: false
+    register-with-eureka: false
+    serviceUrl.defaultZone: http://localhost:${server.port}/eureka
