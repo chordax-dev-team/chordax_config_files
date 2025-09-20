@@ -1,9 +1,4 @@
 ################# EUREKA - SERVICE DISCOVERY ##########################
 eureka:
-  client:
-    serviceUrl.defaultZone: http://localhost:8765/eureka
-    register-with-eureka: true
-    fetch-registry: true
-  instance:
-    prefer-ip-address: true
-    hostname: localhost
+  client.serviceUrl.defaultZone: http://localhost:8765/eureka
+  instance.preferIpAddress: true
