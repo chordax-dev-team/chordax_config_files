@@ -5,4 +5,4 @@ server.port: 8765
 eureka.client:
     fetch-registry: false
     register-with-eureka: false
-    serviceUrl.defaultZone: http://localhost:${server.port}/eureka
+    serviceUrl.defaultZone: http://localhost:8765/eureka
