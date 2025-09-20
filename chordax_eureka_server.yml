@@ -4,5 +4,4 @@ server.port: 8765
 ################# EUREKA - SERVER - SERVICE DISCOVERY ##########################
 eureka.client:
     fetch-registry: false
-    register-with-eureka: false
-    serviceUrl.defaultZone: http://localhost:8765/eureka
+    register-with-eureka: true
