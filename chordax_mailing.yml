@@ -1,2 +1,20 @@
-########################### PORT ############################################
-server.port: 8083
+################# EUREKA - SERVICE DISCOVERY ###########################
+eureka:
+  client.serviceUrl.defaultZone: http://localhost:8766/eureka
+  instance.preferIpAddress: true
+
+########################### PORT #######################################
+server.port: 8086
+
+########################### MAILING ####################################
+spring.mail:
+    host: sandbox.smtp.mailtrap.io
+    port: 2525
+    username: 98e807f595b70b
+    password: a1ca3351bc4a7d
+    properties.mail:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+          required: true

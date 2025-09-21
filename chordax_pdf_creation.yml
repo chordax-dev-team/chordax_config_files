@@ -1,2 +1,7 @@
-########################### PORT ############################################
-server.port: 8082
+################# EUREKA - SERVICE DISCOVERY ###########################
+eureka:
+  client.serviceUrl.defaultZone: http://localhost:8766/eureka
+  instance.preferIpAddress: true
+
+########################### PORT #######################################
+server.port: 8085
