@@ -4,4 +4,4 @@ eureka:
   instance.preferIpAddress: true
 
 ########################### SERVER ############################################
-server.port: 8888
+server.port: 8887
